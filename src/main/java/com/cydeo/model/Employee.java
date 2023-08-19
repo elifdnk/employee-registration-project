@@ -24,6 +24,9 @@ public class Employee {
     @NotBlank
     @Size(max = 12, min = 2)
     private String firstName;
+
+    @NotBlank
+    @Size(max = 12, min = 2)
     private String lastName;
 
     private String address;
